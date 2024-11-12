@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.other-link {
+  height: 500px;
+  background-color: lightgrey;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.other-link:before {
+  content: '🔗';
+  margin-right: 10px;
+}
+
+.other-link img {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+.other-link div {
+  margin-left: 10px;
+  display: flex;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+}
